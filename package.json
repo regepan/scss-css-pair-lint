@@ -4,7 +4,7 @@
   "description": "",
   "main": "cli.js",
   "bin": {
-    "scss-css-pair-lint": "scss-css-pair-lint.js"
+    "scss-css-pair-lint": "bin/scss-css-pair-lint.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
