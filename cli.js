@@ -23,7 +23,7 @@ sgf('ACM', (err, files) => {
     })
 
     if ((hasCSS === true && hasSCSS === false) || hasCSS === false && hasSCSS === true) {
-      console.error(' ' + symbols['error'], 'SCSS & CSS file pair need to be added in one commit')
+      console.error('  ' + symbols['error'], 'SCSS & CSS file pair need to be added in one commit')
       process.exit(1)
     }
 })
